@@ -1,3 +1,22 @@
-ul {
-    list-style-image: url();
+.checklist{
+    padding: 0;
+}
+
+.checklist li{
+    padding-left: 1.2em;
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 1em;
+}
+
+.checklist li.checked{
+    background-image: url("../image/checkbox_ckeck_icon_143039.png");
+}
+
+.checklist li:not(.checked){
+    background-size: 1em;
+    background-position: left center;
+    background-image: url("../image/checkbox_unchecked_filled_icon_201516.png");
+    background-repeat: no-repeat;
 }
