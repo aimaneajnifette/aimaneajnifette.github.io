@@ -1,0 +1,60 @@
+body {
+    width: 95%;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    font: 1.2em Verdana, Helvetica, Arial, sans-serif;
+}
+
+header p img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body > article {
+    float: right;
+    padding: 2%;
+    border: 1px solid black;
+    width: 30%;
+    box-sizing: border-box;
+    margin-bottom: 20%;
+    margin: auto;
+    text-align: center;
+    background: url(../images/cocktail.gif) repeat-x;
+    line-height: 1;
+}
+
+body section {
+    float: right;
+    padding: 10px;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    color: #007E7E;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+footer {
+    font-size: 50%;
+}
+
+#guarantee {
+    line-height: 1.9em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 30px;
+    padding: 25px 25px 25px 80px;
+    color: #444444;
+    border: 3px dashed #007E7E;
+    background: #A7CECE url(../images/background.gif) no-repeat top left;
+}

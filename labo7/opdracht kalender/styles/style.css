@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+
+}
+
+caption {
+    background-color: rgb(170,170,200);
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(35,37,70);
+    color: rgb(200,190,240);
+}
+
+td:first-child, td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+
+tbody tr:nth-child(3) td:nth-child(3) {
+    background-color: orange;
+}
+
+.grijs {
+    background-color: grey !important;
+}
