@@ -1,10 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 table {
-    width: 100%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
     border-collapse: collapse;
     border-right: 3px solid black;
     border-left: 3px solid black;
     border-bottom: 3px solid black;
-
 }
 
 caption {
@@ -15,21 +21,20 @@ caption {
 }
 
 th, td {
-    border: 1px solid black;
-    text-align: center;
-    padding: 10px;
+    border: 1px solid black;    
 }
 
 th {
     background-color: rgb(35,37,70);
     color: rgb(200,190,240);
+    text-align: center;
 }
 
 td:first-child, td:last-child {
     background-color: rgb(255, 220, 220);
 }
 
-tbody tr:nth-child(3) td:nth-child(3) {
+.vrije-dag {
     background-color: orange;
 }
 
