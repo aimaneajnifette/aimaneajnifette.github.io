@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.25em;
+    font-family: Arial, sans-serif;
+}
+
+img  {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+article:nth-child(even) p img{
+    float: right;
+}
+
+article:nth-child(odd) p img{
+    float: left;
+}
+
+article {
+    border: 1px solid black;
+    margin: auto;
+    width: 80%;
+    min-height: 240px;
+    padding: 10px;
+}
+
+article h2 {
+    margin: 0;
+}

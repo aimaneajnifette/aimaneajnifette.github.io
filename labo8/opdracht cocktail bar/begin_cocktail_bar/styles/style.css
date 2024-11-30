@@ -2,7 +2,6 @@ body {
     width: 95%;
     margin: 0;
     padding: 0;
-    margin: auto;
     font: 1.2em Verdana, Helvetica, Arial, sans-serif;
 }
 
@@ -14,12 +13,10 @@ header p img {
 
 body > article {
     float: right;
-    padding: 2%;
+    padding: 30px;
     border: 1px solid black;
-    width: 30%;
+    width: 25%;
     box-sizing: border-box;
-    margin-bottom: 20%;
-    margin: auto;
     text-align: center;
     background: url(../images/cocktail.gif) repeat-x;
     line-height: 1;
@@ -27,7 +24,7 @@ body > article {
 
 body section {
     float: right;
-    padding: 10px;
+    padding: 10px 3% 10px 10px;
     width: 70%;
     box-sizing: border-box;
 }
@@ -44,8 +41,22 @@ h2 {
     font-size: 130%;
 }
 
+body > article > h1 {
+    color: black;
+}
+
+body > article > h2 {
+    color: red;
+}
+
+article a:hover {
+    background-color: brown;
+}
+
 footer {
-    font-size: 50%;
+    font-size: 0.5em;
+    text-align: center;
+    clear: both;
 }
 
 #guarantee {
@@ -57,4 +68,12 @@ footer {
     color: #444444;
     border: 3px dashed #007E7E;
     background: #A7CECE url(../images/background.gif) no-repeat top left;
+}
+
+.cursief {
+    font-style: italic;
+}
+
+.vet {
+    font-weight: bold;
 }
