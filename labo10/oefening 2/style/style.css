@@ -1,0 +1,7 @@
+.container > div div {
+    background-color: lightgray;
+    text-align: center;
+    font-size: 1em;
+    padding: 50px;
+    border: 10px solid white
+}

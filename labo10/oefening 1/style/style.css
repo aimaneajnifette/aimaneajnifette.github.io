@@ -1,0 +1,18 @@
+.container {
+    width: 60%;
+}
+
+body > div > div div {
+    text-align: center;
+    font-size: 1em;
+    padding: 50px;
+    border: 10px solid white
+}
+
+.licht {
+    background-color: lightgray;
+}
+
+.donker {
+    background-color: grey;
+}
