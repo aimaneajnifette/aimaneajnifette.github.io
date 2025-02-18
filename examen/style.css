@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, "Courier New", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #292929;
+    background: url("images/chips_challenge.jpg") no-repeat fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-container {
+    color: white;
+    background-color: #292929;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.header-container > h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.header-container > nav > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+}
+
+.header-container > nav > ul > li {
+    padding: 0 1rem;
+}
+
+.header-container > nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-container > nav > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 90%;
+    margin: 2rem;
+}
+
+.main-container {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+}
+
+.titel {
+    border-bottom: 2px solid #292929;
+    padding-bottom: 0.5rem;
+}
+
+.beginletter {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#monster-lijst {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.monster-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px dotted #ccc;
+    padding: 0 1em;
+    margin: 0;
+}
+
+.monster-container > p {
+    padding: 0.5rem 0;
+    margin: 0;
+}
+
+.monster-container > img {
+    margin-bottom: 0.5rem;
+}
+
+.monster-container:last-child {
+    display: none;
+}
+
+.monster-container:nth-child(odd) {
+    background-color: #dfdfdf;
+}
+
+tr > th:first-child, .tr > td:first-child {
+    width: 18%;
+}
+
+.table-header2 {
+    text-align: left;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+th, td {
+    text-align: left;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+@media screen and (min-width: 992px) {
+    main {
+        width: 80%;
+    }
+
+    #monster-lijst {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .monster-container:last-child {
+        display: block;
+    }
+}
