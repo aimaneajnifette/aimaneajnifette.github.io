@@ -1,0 +1,10 @@
+button {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.change {
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+}
